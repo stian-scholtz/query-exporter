@@ -1,0 +1,35 @@
+{
+    "name": "stianscholtz/query-exporter",
+    "description": "A Laravel package to export queries to csv.",
+    "type": "library",
+    "keywords": [
+        "stian-scholtz",
+        "laravel",
+        "export",
+        "csv"
+    ],
+    "homepage": "https://github.com/stian-scholtz/query-exporter",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Stianscholtz\\QueryExporter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stian Scholtz",
+            "email": "stian678@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~8.1.0|~8.2.0|~8.3.0",
+        "laravel/framework": "^10.0",
+        "league/csv": "^9.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

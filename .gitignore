@@ -1,0 +1,5 @@
+/vendor
+/.fleet
+/.idea
+/.vscode
+/.DS_store

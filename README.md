@@ -13,7 +13,7 @@ Laravel Query Exporter is a handy utility package for Laravel applications that 
 You can install the Laravel Query Exporter via Composer. Run the following command in your terminal:
 
 ```
-composer require yourvendor/query-exporter
+composer require stianscholtz/query-exporter
 ```
 
 ## Usage

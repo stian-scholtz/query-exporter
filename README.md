@@ -28,10 +28,10 @@ $query = DB::table('your_table')
             ->select('column1', 'column2')
             ->where('condition', 'value');
 
-        QueryExporter::forQuery($query)
-            ->filename('my-file')
-            ->headers(['Columns 1', 'Column 2'])//Optional, selected columns in query will be used as default headers.
-            ->export();
+QueryExporter::forQuery($query)
+    ->filename('my-file')
+    ->headers(['Columns 1', 'Column 2'])//Optional, selected columns in query will be used as default headers.
+    ->export();
 ```
 
 ## Contributing

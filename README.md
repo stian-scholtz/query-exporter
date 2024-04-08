@@ -30,7 +30,7 @@ $query = DB::table('your_table')
 
 QueryExporter::forQuery($query)
     ->filename('my-file')
-    ->headers(['Columns 1', 'Column 2'])//Optional, selected columns in query will be used as default headers.
+    ->headers(['Column 1', 'Column 2'])//Optional, selected columns in query will be used as default headers.
     ->export();
 ```
 
